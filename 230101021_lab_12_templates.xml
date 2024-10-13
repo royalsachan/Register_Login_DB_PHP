@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+    <template id="1">
+        <structure>
+            <logo position="top-center" />
+            <name position="center" />
+            <designation position="center" />
+            <contact position="bottom" />
+        </structure>
+    </template>
+    <template id="2">
+        <structure>
+            <logo position="top-left" />
+            <name position="top-right" />
+            <designation position="top-right" />
+            <contact position="bottom" />
+        </structure>
+    </template>
+    <template id="3">
+        <structure>
+            <logo position="left" />
+            <name position="right" />
+            <designation position="right" />
+            <contact position="right" />
+        </structure>
+    </template>
+    <template id="4">
+        <structure>
+            <logo position="top-center" />
+            <name position="center" />
+            <designation position="center" />
+            <contact position="bottom" split="true" />
+        </structure>
+    </template>
+</templates>
