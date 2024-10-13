@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+input[type="text"], input[type="password"], input[type="email"], select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.card {
+    width: 300px;
+    height: 180px;
+    border: 1px solid #000;
+    padding: 10px;
+    margin: 20px auto;
+    position: relative;
+}
+
+.card .logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+.card .name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.card .designation {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.card .contact {
+    font-size: 12px;
+}
+
+/* Card format specific styles */
+.format1 { /* Styles for format 1 */ }
+.format2 { /* Styles for format 2 */ }
+.format3 { /* Styles for format 3 */ }
+.format4 { /* Styles for format 4 */ }
